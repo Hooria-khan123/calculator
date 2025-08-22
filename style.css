@@ -71,3 +71,38 @@ input {
   color: #d46a7e;
   font-size: 22px;
 }
+
+@media screen and (max-width: 400px) {
+  .container {
+    width: 90vw;
+    padding: 12px;
+    border-radius: 28px;
+  }
+
+  input {
+    font-size: 32px;
+    height: 42px;
+    margin: 8px;
+  }
+
+  button {
+    width: 48px;
+    height: 48px;
+    margin: 6px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  button {
+    width: 44px;
+    height: 44px;
+    font-size: 14px;
+    margin: 4px;
+  }
+
+  input {
+    font-size: 28px;
+    height: 38px;
+  }
+}
